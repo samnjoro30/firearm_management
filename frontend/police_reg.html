@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Police Registration</title>
+    <link rel="stylesheet" href="css/policereg.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="check_in_gun.html">Check In</a>
+                <a href="check_out_gun.html">Check Out</a>
+                <a href="police_reg.html">Police Registration</a>
+                <a href="gun_reg.html">Gun Registration</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="registration">
+            <h2>Police Registration</h2>
+            <form action="#" method="post" id="registerPoliceForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <label for="policeId">Police ID:</label>
+                <input type="text" id="policeId" name="policeId" required>
+                <label for="rank">Rank:</label>
+                <select id="rank" name="rank" required>
+                    <option value="" disabled selected>Select Rank</option>
+                    <option value="Inspector">Inspector</option>
+                    <option value="Police Officer">Police Officer</option>
+                    <option value="Sergeant">Sergeant</option>
+                    <option value="Lieutenant">Lieutenant</option>
+                    <option value="Captain">Captain</option>
+                    <option value="Chief">Chief</option>
+                </select>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" required>
+                <button type="submit">Register</button>
+            </form>
+            <p id="message"></p>
+        </div>
+
+        <div class="vision">
+            <h2>Vision for Proper Registration</h2>
+            <p>Our vision is to ensure a seamless and secure registration process for police officers. We aim to maintain accurate records that enhance security and accountability.</p>
+            <p>Proper registration is the cornerstone of a well-regulated system. By ensuring all data is accurately recorded and securely stored, we contribute to the safety and security of our community.</p>
+            <p>We believe in transparency, efficiency, and reliability in our registration processes. Our system is designed to be user-friendly while maintaining the highest standards of data protection.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Registration Portal. All Rights Reserved.</p>
+    </footer>
+    <script src="js/police.js"></script>
+</body>
+</html>

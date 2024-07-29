@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Gun</title>
+    <link rel="stylesheet" href="css/policereg.css">
+</head>
+<body>
+    <header>
+        <h1>Gun Registration</h1>
+    </header>
+    <main>
+        <div class="registration">
+            <form action="#" method="post" id="registerGunForm">
+                <label for="serialNumber">Serial Number:</label>
+                <input type="text" id="serialNumber" name="serialNumber" required>
+
+                <label for="gunType">Gun Type:</label>
+                <input type="text" id="gunType" name="gunType" required>
+
+                <label for="manufacturerDate">Manufacturer Date:</label>
+                <input type="date" id="manufacturerDate" name="manufacturerDate" required>
+
+                <label for="gunStatus">Gun Status:</label>
+                <select id="gunStatus" name="gunStatus" required>
+                    <option value="check_in">check_in</option>
+                    <option value="check_out">check_out</option>
+                </select>
+
+                <button type="submit">Register Gun</button>
+            </form>   
+            <p id="message"></p> <!-- Added to display messages -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gun Registration. All Rights Reserved.</p>
+    </footer>
+    <script src="js/gun.js"></script>
+</body>
+</html>

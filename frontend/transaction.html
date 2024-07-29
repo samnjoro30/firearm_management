@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gun Tracking Transactions</title>
+    <link rel="stylesheet" href="css/transaction.css">
+</head>
+
+<body>
+    <header>
+        <h1>Gun Tracking System</h1>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Administration.html">Administration</a></li>
+                <li><a href="transaction.html">Transactions</a></li>
+                <li><a href="#">Data Analysis</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <h2>Gun Check-in/Check-out Transactions</h2>
+            <table id ="transaction-type">
+                <thead>
+                    <tr>
+                        <th>Transaction Id</th>
+                        <th>serial Number</th>
+                        <th>police id</th>
+                        <th>Transaction Type</th>
+                        <th>Transaction Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Gun check-in/check-out transaction rows will be dynamically added here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 gun tracking system</p>
+    </footer>
+    <script src="js/transaction.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+}
+
+.services-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-list h1 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.services-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-list ul li {
+    margin-bottom: 10px;
+}
+
+.services-list ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.services-list ul li a:hover {
+    background-color: #45a049;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    .services-list h1 {
+        font-size: 1.2em;
+    }
+
+    .services-list ul li a {
+        font-size: 0.9em;
+    }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Out Gun - Gun Tracking System</title>
+    <link rel="stylesheet" href="css/front.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Check Out an Existing Gun</h1>
+        <form action="#" method="POST" id="checkOutGunForm">
+            <div class="input-group">
+                <label for="serialNumber">Serial Number:</label>
+                <input type="text" id="serialNumber" name="serialNumber" required>
+            </div>
+            <div class="input-group">
+                <label for="policeId">Police ID:</label>
+                <input type="text" id="policeId" name="policeId" required>
+            </div>
+            <button type="submit">Check Out Gun</button>
+        </form>
+        <p id="message"></p>
+    </div>
+
+    <script src="js/check_out.js"></script>
+</body>
+</html>

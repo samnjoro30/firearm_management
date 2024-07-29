@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #83c783;
+}
+h2 {
+    text-decoration: black;
+    text-align: center;
+    color: green;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 9, 9);
+    padding: 10px 20px;
+    color: #fff;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav ul li a {
+    color: #f0eaea;
+    font-size: bold;
+    text-decoration: none;
+}
+
+nav ul li .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-container form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.login-container form h2 {
+    margin-bottom: 20px;
+}
+
+.login-container form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-container form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container form button {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.about {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.about p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ccc;
+    color: #fff;
+}
+
+/* Add hover effect for navigation links */
+nav ul li:hover a {
+    color: rgb(123, 163, 146); /* Change color on hover */
+}
+
+
+nav ul li .dropdown li:hover a {
+    color: rgb(69, 95, 98); /* Change color on hover */
+}
+
+#features {
+    background-color: #b5a9a9;
+    padding: 40px 0;
+}
+
+#features .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.feature {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #958896;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.feature i {
+    font-size: 3em;
+    color: #83c783; /* Green color */
+    margin-bottom: 10px;
+}
+.logo img{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    display: flexbox;
+    align-items: top;
+    height: 1000px;
+    width: 50px;
+    padding: 0rem;
+    margin-bottom: 1rem;
+    border-radius: 100px;
+}
+.banner {
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    color:#333;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.banner-btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.banner-btn:hover {
+    background-color: #45a049;
+}

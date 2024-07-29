@@ -1,0 +1,193 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    color: #170c0c;
+}
+
+header .logo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #256e5e;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.services-list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.service {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+.service:hover img {
+    transform: scale(1.1);
+}
+
+.service h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.service p {
+    line-height: 1.4;
+    margin-bottom: 15px;
+    transition: color 0.3s ease-in-out;
+}
+.service:hover p {
+    color: #4CAF50; /* Change color on hover */
+}
+
+.service a {
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s  ease-in-out;
+}
+
+.service a:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.footer-top div {
+    text-align: left;
+}
+
+.footer-top h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer-top p {
+    margin: 5px 0;
+}
+
+.footer-top i {
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 10px 0;
+}
+
+.footer-bottom nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom nav ul li {
+    margin: 0 10px;
+}
+
+.footer-bottom nav ul li a {
+    color: #333; /* Set initial link color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+}
+
+.footer-bottom nav ul li a:hover {
+    color: #4CAF50; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.service  {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}

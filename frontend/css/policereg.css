@@ -1,0 +1,122 @@
+/* Reset some default styles */
+body, h1, h2, p, form, label, input, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header .header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.registration, .vision {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+    width: 500px;
+}
+
+.registration h2, .vision h2 {
+    margin-bottom: 20px;
+    color: #0044cc;
+    font-size: 24px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input[type="text"], form input[type="email"], form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="text"]:focus, form input[type="email"]:focus, form select:focus {
+    border-color: #0044cc;
+    outline: none;
+}
+
+form button {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #4dc964;
+}
+
+.vision p {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: wavy;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #afbbbf;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
